@@ -191,3 +191,4 @@ dist
 
 .idea
 /codes/ch01/tpl/gen.out
+/codes/ch03/bigpipe_project/package-lock.json
