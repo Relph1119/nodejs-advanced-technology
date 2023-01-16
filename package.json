@@ -10,13 +10,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nestjs/cli": "^9.1.8",
     "chalk": "^5.2.0",
     "colors": "^1.4.0",
     "debug": "^4.3.4",
     "js-lru": "^1.0.0",
+    "koa-generator": "^1.1.17",
     "link": "^1.5.1",
+    "loopback-cli": "^5.2.0",
     "nunjucks": "^3.2.3",
     "xtend": "^4.0.2",
     "yargs": "^17.6.2"
+  },
+  "dependencies": {
+    "find-my-way": "^7.4.0"
   }
 }

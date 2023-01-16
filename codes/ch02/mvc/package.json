@@ -1,0 +1,46 @@
+{
+  "name": "mvc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "ava -v"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "debug": "^4.1.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "mongoose": "^6.8.3",
+    "mongoosedao": "^1.0.13",
+    "mount-controllers": "^1.0.8",
+    "mount-koa-routes": "^2.0.1",
+    "mount-middlewares": "^1.0.7",
+    "mount-models": "^1.0.8",
+    "pug": "^2.0.3",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "ava": "^5.1.1",
+    "cross-spawn": "^5.1.0",
+    "fastify": "^4.11.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-mocha": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "nightwatch": "^2.6.10",
+    "nightwatch-helpers": "^1.2.0",
+    "nodemon": "^1.19.4",
+    "selenium-server": "^3.141.59",
+    "superkoa": "^1.0.3"
+  }
+}
