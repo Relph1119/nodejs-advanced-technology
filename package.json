@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-advanced-technology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "colors": "^1.4.0",
+    "debug": "^4.3.4",
+    "js-lru": "^1.0.0",
+    "link": "^1.5.1",
+    "nunjucks": "^3.2.3",
+    "xtend": "^4.0.2",
+    "yargs": "^17.6.2"
+  }
+}
