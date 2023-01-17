@@ -11,10 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "@nestjs/cli": "^9.1.8",
+    "autocannon": "^7.10.0",
     "chalk": "^5.2.0",
     "colors": "^1.4.0",
     "debug": "^4.3.4",
     "dnode": "^1.2.2",
+    "easy-monitor": "^2.2.8",
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
